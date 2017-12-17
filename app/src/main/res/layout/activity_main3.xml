@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f38020"
+    android:orientation="vertical"
+    android:padding="40dp"
+
+    tools:context="com.example.goktu.panic.Main3Activity">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="166dp"
+        android:src="@drawable/icon" />
+
+    <EditText
+        android:id="@+id/et_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:textAlignment="center"
+        android:textColorHint="#ffffff"
+        android:textColor="#ffffff"
+        android:hint="Adınız"
+        android:textSize="17sp"/>
+
+    <EditText
+        android:id="@+id/et_sname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Soyadınız"
+        android:textColorHint="#ffffff"
+        android:textColor="#ffffff"
+        android:textAlignment="center"
+        android:layout_marginTop="20dp"
+        android:textSize="17sp"/>
+
+    <EditText
+        android:id="@+id/et_phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Telefon Numaranız"
+        android:textColorHint="#ffffff"
+        android:textColor="#ffffff"
+        android:textAlignment="center"
+        android:layout_marginTop="20dp"
+        android:textSize="17sp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Kayıt Ol"
+        android:textColor="#ffffff"
+        android:background="#ee7713"
+        android:textSize="17sp"
+        android:onClick="SignUp"/>
+</LinearLayout>

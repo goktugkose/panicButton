@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="40dp"
+    android:orientation="vertical"
+    android:background="#f27f20"
+    tools:context="com.example.goktu.panic.Main2Activity"
+    android:weightSum="1">
+
+    <Switch
+        android:id="@+id/rb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Data var mı?"
+        android:visibility="invisible"
+        />
+
+    <TextView
+        android:layout_marginTop="40dp"
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:textStyle="italic"
+        android:textColor="#ffffff"
+        android:text="@string/first_str" />
+
+    <Button
+        android:layout_marginTop="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:background="#ee7713"
+        android:onClick="Devam"
+        android:text="Devam"/>
+
+
+</LinearLayout>
